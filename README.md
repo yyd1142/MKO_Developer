@@ -15,6 +15,8 @@
 	      |---App.vue(入口文件)
 	      |
 	      |---main.js(vue.js核心文件)  
+          |
+          |---filters.js(公用过滤器)  
 	      
 static---|---images(存放图片资源)
          |
@@ -64,5 +66,17 @@ console.log(that.list);
 background: url('/static/pathName/xxx.jpg') 0 0 no-repeat;
 ...
 ```
+## Build Setup
 
+``` bash
+# install dependencies
+npm install
 
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
