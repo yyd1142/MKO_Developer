@@ -1,12 +1,14 @@
 import api from 'api';
-import { Toast } from 'mint-ui';
+import { Toast, Tabbar, TabItem } from 'mint-ui';
 import { dateFormat } from './../filters';
 import headerComponent from './../components/header.vue';
+import vTab from './../components/tabs/template.vue';
 export default {
     data() {
         return {
             headerTitle: '实时监测',
-            link: '/'
+            link: '/',
+            tabName: '订单'
         }
     },
     mounted() {
@@ -36,6 +38,7 @@ export default {
         dateFormat
     },
     components: {
-        headerComponent
+        headerComponent,
+        vTab
     }
 }

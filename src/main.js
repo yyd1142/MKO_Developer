@@ -11,7 +11,7 @@ Vue.use(MintUI);
 
 // 定义组件
 import home from './views/home.vue'
-
+import other from './views/other.vue'
 // 创建一个路由器实例
 // 并且配置路由规则
 const router = new VueRouter({
@@ -21,6 +21,10 @@ const router = new VueRouter({
     {
       path: '/',
       component: home
+    },
+    {
+      path: '/other',
+      component: other
     }
   ]
 });

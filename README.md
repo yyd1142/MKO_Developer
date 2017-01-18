@@ -66,6 +66,30 @@ console.log(that.list);
 background: url('/static/pathName/xxx.jpg') 0 0 no-repeat;
 ...
 ```
+##公用模块
+
+###1.顶部header组件 
+app里面所有的顶部header,包括右侧菜单栏header、左侧返回按钮的   
+###2.底部tabs组件 
+底部的tab切换 
+###3.Toast box组件  
+所有操作提示、消息提示、错误提示等
+###4.Loading indicator组件  
+页面加载、服务器请求时弹出层的loading indicator  
+###5.提示框（alert、confirm、prompt） 
+所有的操作提示框
+###6.接口服务模块 
+app访问服务器的接口跟页面逻辑需要进行分离  
+###7.公用filters  
+一些公用的filters,全部放到_filters.js_文件里面
+###8.load more 服务（分页功能） 
+列表页面下拉加载更多 
+###9.表单验证功能  
+###10.上传图片功能  
+###11.搜索框
+所有的搜索框拆分出来做成子组件
+###12.地理定位接口  
+
 ## Build Setup
 
 ``` bash
