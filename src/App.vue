@@ -1,8 +1,8 @@
 <template>
   <div>
-    <transition name="fade" mode="out-in">
-      <router-view></router-view>
-    </transition>
+    <router-view></router-view>
   </div>
 </template>
-<style lang="less" src="./style/app.less"></style>
+
+<script src="./App.js"></script>
+<style lang="less" src="./app.less"></style>

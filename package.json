@@ -1,20 +1,17 @@
 {
-  "name": "mko",
+  "name": "que-safecloud-app",
   "version": "1.0.0",
-  "description": "前端项目规范模板",
-  "author": "YYD <yyd-yyd@hotmail.com>",
+  "description": "QUE_SafeCloudAPP",
+  "author": "queee03 <tantan313@126.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js"
   },
   "dependencies": {
-    "babel-runtime": "^6.20.0",
     "less": "^2.7.2",
     "less-loader": "^2.2.3",
     "mint-ui": "^2.1.0",
-    "moment": "^2.17.1",
-    "reqwest": "^2.0.5",
     "vue": "^2.1.0",
     "vue-router": "^2.1.1"
   },
