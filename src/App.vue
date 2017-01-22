@@ -4,5 +4,5 @@
   </div>
 </template>
 
-<script src="./App.js"></script>
+<script></script>
 <style lang="less" src="./app.less"></style>

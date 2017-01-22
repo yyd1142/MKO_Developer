@@ -8,24 +8,26 @@
     <div class="page-wrap">
         <!--安全得分-->
         <div class="fen-wrap">
-          <div class="total-fen-wrap">
-            <span class="total-name">安全得分</span>
-            <div class="total-value"><span>90</span>优秀</div>
-          </div>
-          <div class="fen-item">
-            建筑物火灾风险得分
-            <mt-progress :value="20" :bar-height="5">
-              <div slot="end">28/30</div>
-            </mt-progress>
-            建筑物火灾风险得分
-            <mt-progress :value="20" :bar-height="5">
-              <div slot="end">28/30</div>
-            </mt-progress>
-            建筑物火灾风险得分
-            <mt-progress :value="20" :bar-height="5">
-              <div slot="end">28/30</div>
-            </mt-progress>
-          </div>
+          <router-link to="/score">
+            <div class="total-fen-wrap">
+              <span class="total-name">安全得分</span>
+              <div class="total-value"><span>90</span>优秀</div>
+            </div>
+            <div class="fen-item">
+              建筑物火灾风险得分
+              <mt-progress :value="20" :bar-height="5">
+                <div slot="end">28/30</div>
+              </mt-progress>
+              建筑物火灾风险得分
+              <mt-progress :value="20" :bar-height="5">
+                <div slot="end">28/30</div>
+              </mt-progress>
+              建筑物火灾风险得分
+              <mt-progress :value="20" :bar-height="5">
+                <div slot="end">28/30</div>
+              </mt-progress>
+            </div>
+          </router-link>
         </div>
         <!--今日巡查-->
         <div class="today-wrap">

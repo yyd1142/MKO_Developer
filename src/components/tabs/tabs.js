@@ -7,7 +7,7 @@ import vPerson from '../../views/person/person.vue';
 export default {
   data() {
     return {
-      selected: 'home',
+      selected: this.$route.query.name || 'home',
       swipeable: true,
       tabsList: [
         {
